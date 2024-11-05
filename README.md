@@ -1,4 +1,4 @@
-```markdown
+
 # 🔍 goSeeker
 
 **goSeeker** is a fast and efficient port scanner built in Go. It allows users to scan specified ports on a target IP address and retrieves detailed information about open ports, including service names and SSL/TLS details.
@@ -19,8 +19,8 @@ Make sure you have Go installed on your machine. You can download it from [golan
 To install the project, clone this repository and navigate to the directory:
 
 ```bash
-git clone https://github.com/lucasmilhomem11/goSeeker.git
-cd goSeeker
+    git clone https://github.com/lucasmilhomem11/goSeeker.git
+    cd goSeeker
 ```
 
 ## Building the Project
@@ -28,14 +28,16 @@ cd goSeeker
 There are two ways to run the application: using `go run` or building the binary. Follow these steps to build the binary:
 
 1. **Initialize a Go module (if not already done):**
-   ```bash
-   go mod init <module-name>
-   ```
+   
+```bash
+    go mod init <module-name>
+```
 
 2. **Build the project:**
-   ```bash
+   
+```bash
    go build -o goSeeker
-   ```
+```
 
 ### Flags
 
@@ -53,7 +55,6 @@ Run the scanner with the following command:
 ```bash
 ./goSeeker -target <target> -ports <PORT_RANGE> [-timeout <TIMEOUT>] [-workers <NUMBER>] [-output <OUTPUT_FILE>] [-verbose]
 ```
-
 Alternatively, you can run the application directly without building it:
 
 ```bash
@@ -85,4 +86,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For any inquiries or suggestions, feel free to open an issue in the repository.
-
